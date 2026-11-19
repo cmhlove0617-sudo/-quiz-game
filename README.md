@@ -50,3 +50,6 @@ Git / GitHub
 JSON
 클래스 및 객체 지향 프로그래밍
 
+
+## Git 실습 기록
+GitHub 저장소를 clone하여 복제하고 pull로 동기화하는 실습을 진행했습니다.
