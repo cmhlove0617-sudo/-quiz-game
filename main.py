@@ -22,3 +22,20 @@ while True:
         break
     else:
         print("⚠️ 1~5 사이의 숫자를 입력해 주세요.")
+
+
+class Quiz:
+    def __init__(self, question, choices, answer):
+        self.question = question
+        self.choices = choices
+        self.answer = answer
+
+    def show(self):
+        print("\n" + self.question)
+        for number, choice in enumerate(self.choices, start=1):
+            print(f"{number}. {choice}")
+
+    def check_answer(self, user_answer):
+        return user_answer == self.answer
+
+
